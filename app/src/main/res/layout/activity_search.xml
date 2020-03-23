@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/search_bg_color"
+    tools:context=".SEARCH">
+
+    <SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:tooltipText="@string/app_name"
+        android:focusedByDefault="true"
+        android:focusable="true"
+        android:onClick="search"
+        android:background="@drawable/ex1"
+        android:layout_marginTop="30dp"
+        />
+</RelativeLayout>
